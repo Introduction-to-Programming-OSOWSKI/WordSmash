@@ -16,7 +16,8 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals("yesno", App.wordSmash("yes", "no"), "ERROR MESSAGE");
+       assertEquals("five two", App.wordSmash("five ", "two"), "ERROR MESSAGE");
    }
 
 }

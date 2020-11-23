@@ -1,17 +1,26 @@
-# **Assignment Title**  
+# **Word Smash**  
 
 ## **Assignment Description**  
-
+Create a method called wordSmash() that returns the combination of a given String s and a given String r.
 
 ## **Examples**  
->
+>wordSmash("Cat", "Dog")   
+CatDog
+
+>wordSmash("Super", "duper")   
+Superduper
+
+>wordSmash("The ", "End.")   
+The End.
 
 ## **Limitations**  
+1 method
 
 ## **Hints**  
+Use + to combine two Strings
 
 ## **Concepts**  
-
+Methods, Strings
 
 ---
 
